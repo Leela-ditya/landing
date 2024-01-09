@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+    --landing--backgroundColor: #F3F1F6;
+    --icon-color: #06285E ;
+    --heading-color: #000000;
+    --rating-color: #F1D700;
+    --landing-text-color: #FFFFFF;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-section{
+    background: url(images/Cover\ img.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    margin-top: 75px;
+}
+
+.hero-section-width{
+    max-width: 50%;
+}
+.container h1{
+    font-size: 30px;
+    color: var(--landing-text-color);
+    line-height: 1.3rem;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.rating-section .rating-icon{
+    color: var(--rating-color);
+    margin: 40px auto 30px auto;
+}
+
+.hero-section-content small{
+    color: var(--landing-text-color);
+    line-height: 1.8rem;
+    /* font-size: 15px; */
+}
+
+.hero-section-content{
+    margin: auto auto 50px auto;
+}
+
+.hero-section-btns{
+    display: flex;
+    gap: 50px;
+}
+
+.hero-section-btns button{
+    padding: 10px 30px;
+    border: none;
+    font-weight: bolder;
+}
+
+.hero-section-btns button:last-child{
+    background-color: var(--heading-color);
+    color: var(--landing-text-color);
+    border: 3px solid var(--icon-color);
+}
+
+.hero-section-btns button:first-child:hover{
+    background-color: var(--icon-color);
+    color: var(--landing-text-color);
+}
+
+.hero-section-btns button:last-child:hover{
+    background-color: var(--icon-color);
+}
+
+.skill-section{
+    padding: 2rem 3rem;
+    background-color: var(--landing--backgroundColor);
+}
+
+.skill-section-heading h2{
+    font-weight: bolder;
+}
+
+.skill-section-heading h2 span{
+    /* font-weight: bolder; */
+    color: var(--icon-color);
+}
+
+.skills-icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    margin: 40px auto 20px auto;
+}
+
+.skills-icons span i{
+    font-size: 30px;
+    color: var(--icon-color);
+    margin-right: 10px;
+}
+
+.skills-icons span{
+    font-weight: 500;
+}
+
+.overview-section{
+    padding: 3rem 3rem;
+}
+
+.overview-section-heading h3{
+    font-weight: bolder;
+}
+
+.overview-section-heading h3 span{
+    color: var(--icon-color);
+}
+
+.overview-section-content{
+    display: flex;
+    padding-top: 2rem;
+}
+
+.overview-content{
+    max-width: 60%;
+}
+
+.overview-content small{
+    color: var(--heading-color);
+    line-height: 1.5rem;
+}
+
+.top-institutes{
+    box-shadow: 0px 0px 0.5rem grey;
+    margin: 20px 50px;
+}
+
+.institute-title{
+    min-height: 10vh;
+    font-size: 2rem;
+    line-height: 10vh;
+    padding-left: 10px;
+    background-image: linear-gradient( to right, var(--landing--backgroundColor), var(--icon-color));
+}
+
+.institute-names{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 15px;
+    gap: 10px;
+    padding: 10px 15px;
+}
+
+.skills-covered{
+    padding: 2rem 1rem;
+    background-color: var(--landing--backgroundColor);
+}
+
+.skills-covered-heading h2{
+    font-weight: bolder;
+    color: var(--heading-color);
+}
+
+.skills-content {
+    display: grid;
+    /* padding: 0rem 5rem; */
+}
+
+.skill-subcontent-1{
+    margin: 40px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill-subcontent-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skills{
+    border: 0.1px solid grey;
+    border-radius: 2px;
+    border-left: 5px solid var(--icon-color);
+    font-weight: bold;
+    color: var(--heading-color);
+    padding: 5px 25px;
+    display: inline-flex;
+}
+
+.operations{
+    padding: 2rem 3rem;
+}
+
+.operations h2{
+    font-weight: bolder;
+    color: var(--heading-color);
+}
+
+.operations-content{
+    padding: 1rem 0rem;
+}
+.operations-content small{
+    color: var(--heading-color);
+    line-height: 1.5rem;
+}
