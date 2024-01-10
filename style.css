@@ -135,8 +135,8 @@ body {
 }
 
 .institute-title {
-  min-height: 10vh;
-  line-height: 10vh;
+  padding: .2rem;
+  color: var(--landing-text-color);
   padding-left: 10px;
   background: url(images/banner-bg.webp);
   background-position: center;
